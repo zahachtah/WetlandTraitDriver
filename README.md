@@ -36,7 +36,7 @@ with open('PathToLiveFigureFolder/Fig2.json','w') as outfile:
     outfile.write(',"nodes":')
     outfile.write(dfNodes.to_json(orient="records"))
     outfile.write('}')
-    ```
+```
     
 # Look at the figure
 
