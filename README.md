@@ -30,7 +30,7 @@ links=pd.read_excel(ExcelFile,sheetname=1 )
 nodes=pd.read_excel(ExcelFile,sheetname=0 )
 linksjson=links.to_json(orient="records")
 nodesjson=nodes.to_json(orient="records")
-with open('PathToLiveFigureFolder/Fig2.json','w') as outfile:
+with open('PathToLiveFigureFolder/WetlandTraitDriver.json','w') as outfile:
     outfile.write('{"links":')
     outfile.write(dfLinks.to_json(orient="records"))
     outfile.write(',"nodes":')
