@@ -43,7 +43,7 @@ with open('PathToLiveFigureFolder/WetlandTraitDriver.json','w') as outfile:
 make sure the path in the figure.html file points to the newly created json file:
 
 ```javascript
-d3.json("PathToJsonFile/Fig2.json", function(error, graph) {
+d3.json("PathToJsonFile/WetlandTraitDriver.json", function(error, graph) {
 ```
 
 If everything works you should now be able to see the figure
