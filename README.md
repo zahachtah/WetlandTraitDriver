@@ -10,8 +10,8 @@ The main working document is [here](https://docs.google.com/spreadsheets/d/1ck5Z
 
 Working with the document needs some care due to the way the nodes and links interact:
 
-1) links in the links "sheet" can only occur between nodes registered on teh "nodes" sheet
-2) links cannot go "backwards" this will break the graph algorithm
+    1) links in the links "sheet" can only occur between nodes registered on teh "nodes" sheet
+    2) links cannot go "backwards" this will break the graph algorithm
 
 Due to this we suggest to test major structural changes yourself according to the procedure below. Smaller edits are fine in the live document. Note however that the final figure is not automatically updated, but needs to be processed manually to produce an updated output.
 
@@ -47,6 +47,7 @@ d3.json("PathToJsonFile/WetlandTraitDriver.json", function(error, graph) {
 ```
 Due to the fact that most browsers like to load local files on a webpage you now need to either:
 
-1) open a terminal, cd to the folder and type ```python -m http.server 8000``` and then open localhost:8000 in a browser, or
-2) put the folder where you can access it via a http request
+    1) open a terminal, cd to the folder and type ```python -m http.server 8000``` and then open localhost:8000 in a browser, or
+    2) put the folder where you can access it via a http request
+    
 If everything works you should now be able to see the figure
