@@ -47,6 +47,6 @@ d3.json("PathToJsonFile/WetlandTraitDriver.json", function(error, graph) {
 ```
 Due to the fact that most browsers like to load local files on a webpage you now need to either:
 
-1) open a terminal, cd to the folder and type ```python -m http.server 8000``` and then open localhost:8000, or
+1) open a terminal, cd to the folder and type ```python -m http.server 8000``` and then open localhost:8000 in a browser, or
 2) put the folder where you can access it via a http request
 If everything works you should now be able to see the figure
