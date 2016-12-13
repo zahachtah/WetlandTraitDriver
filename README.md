@@ -37,7 +37,9 @@ with open('PathToLiveFigureFolder/WetlandTraitDriver.json','w') as outfile:
     outfile.write(dfNodes.to_json(orient="records"))
     outfile.write('}')
 ```
-    
+   
+Note: I will check to see if its possible to get the data directly from google without manual download. 
+   
 # Look at the figure
 
 make sure the path in the figure.html file points to the newly created json file:
