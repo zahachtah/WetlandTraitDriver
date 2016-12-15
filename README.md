@@ -32,9 +32,9 @@ linksjson=links.to_json(orient="records")
 nodesjson=nodes.to_json(orient="records")
 with open('PathToLiveFigureFolder/WetlandTraitDriver.json','w') as outfile:
     outfile.write('{"links":')
-    outfile.write(dfLinks.to_json(orient="records"))
+    outfile.write(links.to_json(orient="records"))
     outfile.write(',"nodes":')
-    outfile.write(dfNodes.to_json(orient="records"))
+    outfile.write(nodes.to_json(orient="records"))
     outfile.write('}')
 ```
    
