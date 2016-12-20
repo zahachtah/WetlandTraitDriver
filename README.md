@@ -1,6 +1,6 @@
 # Wetland Trait Driver
 
-This repository serves as a open source scientific platform on research linking environmental drivers and change to wetland processes and ecosystem services. A [live version](https://dl.dropboxusercontent.com/u/38371278/HelenFig/WetlandTraitDriver.html) of the figure!
+This repository serves as a open source scientific platform on research linking environmental drivers and change to wetland processes and ecosystem services. A [live version](http://zahachtah.github.io/WetlandTraitDriver/) of the figure!
 
 # Data
 
