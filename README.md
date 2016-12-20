@@ -15,6 +15,8 @@ Working with the document needs some care due to the way the nodes and links int
 
 Due to this we suggest to test major structural changes yourself according to the procedure below. Smaller edits are fine in the live document. Note however that the final figure is not automatically updated, but needs to be processed manually to produce an updated output.
 
+Also, any improvements to the process of working and generating the figure or the figure javascript code is greatly appreciated.
+
 # Processing of data to generate file for visualization
 
 Once changes have been made in the google Data sheets, the file can be downloaded by exporting as excel file. Then do the following in python:
