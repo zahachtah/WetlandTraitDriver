@@ -4,7 +4,7 @@ This repository serves as a open source scientific platform on research linking 
 
 # Data
 
-The main data for the project is hosted on a public google sheet. While google sheets provides versioning, we still have one "frozen" version to see [here](https://docs.google.com/spreadsheets/d/1ck5ZCyX8FKwjJ36NOsbQFBuqsKweWUrhUh1sKBPoPqg/edit?usp=sharing).
+The main data for the project is hosted on a public google sheet. While google sheets provides versioning, we still have one "frozen" version to see [here](https://docs.google.com/spreadsheets/d/1ck5ZCyX8FKwjJ36NOsbQFBuqsKweWUrhUh1sKBPoPqg/edit?usp=sharing). You can for example, make a copy of this oor the revised one linked below, work through some changes and then send us a link to the updated document with some explanations for the changes. We can then upgrade the figure (we will keep one version with the original to provide a static version corresponding to the version at the time of the publication)
 
 The main working document is [here](https://docs.google.com/spreadsheets/d/1ck5ZCyX8FKwjJ36NOsbQFBuqsKweWUrhUh1sKBPoPqg/edit?usp=sharing). 
 
